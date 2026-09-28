@@ -1520,4 +1520,18 @@ body.loaded .top__mv-figure{
 	letter-spacing: 0.1em;
 	margin: 0 auto;
 	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	/* ===== 修正手機、平板版灰色對話框被下方圖片遮住 ===== */
+
+@media screen and (max-width: 1025px) {
+    .top__about-text {
+        box-sizing: border-box;
+        min-height: 60vw;
+    }
+}
+
+@media screen and (max-width: 684px) {
+    .top__about-text {
+        min-height: 95vw;
+    }
+}
 }
