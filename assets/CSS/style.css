@@ -1506,23 +1506,23 @@ body.loaded .top__mv-figure{
 	font-size: 1.6em;
 	margin-top: 2.58em;
 }
-.top__cv-link{
-	background-color: #fff;
-	border:3px solid #EB9400;
-	color: #333;
-	width: 22.5em;
-	max-width: 100%;
-	box-sizing: border-box;
-	text-align: center;
-	border-radius: 1.8em;
-	padding:0.85em;
-	font-weight: 700;
-	letter-spacing: 0.1em;
-	margin: 0 auto;
-	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+.top__cv-link {
+    background-color: #fff;
+    border: 3px solid #EB9400;
+    color: #333;
+    width: 22.5em;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 1.8em;
+    padding: 0.85em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
 
-	/* ===== 修正手機、平板版灰色對話框被下方圖片遮住 ===== */
-
+/* 修正手機、平板版灰色對話框被下方圖片遮住 */
 @media screen and (max-width: 1025px) {
     .top__about-text {
         box-sizing: border-box;
@@ -1535,8 +1535,8 @@ body.loaded .top__mv-figure{
         min-height: 95vw;
     }
 }
-/* 所有螢幕尺寸皆顯示 VOICE 灰色對話框 */
+
+/* 隱藏 VOICE 左側灰色對話框 */
 .top__voice-bg.top__voice-bg_balloon {
-    display: block;
-}
+    display: none;
 }
