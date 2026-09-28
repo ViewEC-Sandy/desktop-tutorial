@@ -1520,6 +1520,7 @@ body.loaded .top__mv-figure{
 	letter-spacing: 0.1em;
 	margin: 0 auto;
 	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+
 	/* ===== 修正手機、平板版灰色對話框被下方圖片遮住 ===== */
 
 @media screen and (max-width: 1025px) {
@@ -1533,5 +1534,9 @@ body.loaded .top__mv-figure{
     .top__about-text {
         min-height: 95vw;
     }
+}
+/* 所有螢幕尺寸皆顯示 VOICE 灰色對話框 */
+.top__voice-bg.top__voice-bg_balloon {
+    display: block;
 }
 }
