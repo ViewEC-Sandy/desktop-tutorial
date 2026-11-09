@@ -1540,3 +1540,10 @@ body.loaded .top__mv-figure{
 .top__voice-bg.top__voice-bg_balloon {
     display: none;
 }
+
+.footer__ac-subtitle {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 400;
+}
