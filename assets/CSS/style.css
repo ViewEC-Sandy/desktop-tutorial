@@ -1547,3 +1547,12 @@ body.loaded .top__mv-figure{
   font-size: 12px;
   font-weight: 400;
 }
+
+/* 僅電腦版：Footer 左右區塊垂直置中 */
+@media screen and (min-width: 1024px) {
+    .footer__flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
